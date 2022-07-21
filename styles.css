@@ -228,7 +228,7 @@ body {
 }
 
 .snippets {
-  margin-bottom: 50px;
+  margin: 100px auto 50px;
 }
 
 .services-section .main-container {
@@ -358,4 +358,128 @@ body {
   display: flex;
   gap: 20px;
   margin-left: 150px;
+}
+
+/* ============ MEDIA QUERIES ============ */
+
+@media (max-width: 1200px) {
+  .computer-monitor {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    width: 90%;
+  }
+
+  .partner {
+    width: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .computer-monitor {
+    width: 50%;
+  }
+
+  .services {
+    gap: 50px;
+  }
+
+  .service-heading {
+    font-size: 1.5rem;
+  }
+
+  .option img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-section .main-container {
+    gap: 20px;
+  }
+
+  .socials {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-section .main-container {
+    margin: auto;
+  }
+
+  .services {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service {
+    text-align: center;
+  }
+
+  .workflow-options {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .option {
+    width: 80%;
+  }
+
+  .partner {
+    width: 80px;
+  }
+
+  .footer-section {
+    height: 500px;
+  }
+
+  .footer-section .main-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .links {
+    text-align: center;
+  }
+
+  .links:nth-child(4) {
+    align-self: center;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section::before {
+    background-image: url("./images/bg-header-mobile.png");
+  }
+
+  .buttons {
+    margin: 30px auto;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
+
+  .main-btn {
+    font-size: 1rem;
+  }
+
+  .snippets {
+    margin: 10px auto;
+  }
+
+  .partners {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .partner {
+    width: 100px;
+  }
 }
