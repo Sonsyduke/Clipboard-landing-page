@@ -141,6 +141,8 @@ body {
   font-size: 18px;
 }
 
+/* ============ HERO SECTION ============ */
+
 /* Used ::before to only change the background opacity */
 .hero-section::before {
   content: "";
@@ -214,4 +216,46 @@ body {
 
 .mac:hover {
   background-color: var(--light-blue-hover);
+}
+
+/* ============ SERVICES SECTION ============ */
+.secondary-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-grayish-blue);
+  margin-bottom: 20px;
+}
+
+.services-section .main-container .snippets {
+  margin: auto;
+}
+
+.services-section .main-container {
+  margin: 0;
+  width: 90%;
+}
+
+.services {
+  display: flex;
+  gap: 100px;
+}
+
+.allServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: left;
+}
+
+.service-heading {
+  color: var(--dark-grayish-blue);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-desc {
+  color: var(--grayish-blue);
+  line-height: 1.5;
 }
