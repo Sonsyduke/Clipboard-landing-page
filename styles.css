@@ -270,3 +270,38 @@ body {
   margin: 50px auto 0;
   width: 100%;
 }
+
+/* ============ Workflow SECTION ============ */
+.workflow-section {
+  margin-top: 100px;
+}
+
+.workflow-section .main-container {
+  width: 80%;
+}
+
+.workflow-options {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.option {
+  width: 60%;
+}
+
+.option img {
+  width: 40px;
+  height: 40px;
+}
+
+.option .service-heading {
+  margin: 20px 0;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
