@@ -226,8 +226,8 @@ body {
   margin-bottom: 20px;
 }
 
-.services-section .main-container .snippets {
-  margin: auto;
+.snippets {
+  margin-bottom: 50px;
 }
 
 .services-section .main-container {
@@ -259,4 +259,14 @@ body {
   color: var(--grayish-blue);
   line-height: 1.5;
   font-size: 1rem;
+}
+
+/* ============ DEVICES SECTION ============ */
+.devices-section {
+  margin-top: 150px;
+}
+
+#devices {
+  margin: 50px auto 0;
+  width: 100%;
 }
